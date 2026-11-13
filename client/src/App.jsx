@@ -26,7 +26,7 @@ function App() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/feedback",
+        "https://feedbackmanagement-qppv.onrender.com/api/feedback",
         {
           ...formData,
           rating: Number(formData.rating)
